@@ -100,7 +100,6 @@ func prepareAssets() {
 	lines := strings.Split(string(input), "\n")
 	for i, line := range lines {
 		if strings.Contains(line, "-PWD-") {
-			fmt.Printf("%s contains PWD\n", line)
 			lines[i] = re.ReplaceAllString(line, dir)
 		}
 	}
