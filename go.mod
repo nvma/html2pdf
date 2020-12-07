@@ -1,4 +1,4 @@
-module github.com/nvma/html2pdfa
+module github.com/nvma/html2pdf
 
 go 1.15
 
